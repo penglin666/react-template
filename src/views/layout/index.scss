@@ -1,0 +1,30 @@
+.layout{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  .main{
+    flex:1;
+    background-color: #f9f9f9;
+    .container{
+      width: 1000px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 16px;
+      >div{
+        background-color: #fff;
+        padding: 12px;
+      }
+      .content{
+        flex:1
+      }
+      .aside{
+        width: 296px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
